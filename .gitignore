@@ -1,3 +1,9 @@
+# Prj files
+CMSIS
+FWlib
+Listing
+Output
+
 # Prerequisites
 *.d
 

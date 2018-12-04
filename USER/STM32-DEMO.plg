@@ -1,0 +1,148 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\桌面\TIM3产生PWM波\TIM3产生PWM波\USER\STM32-DEMO.uv2
+Project File Date:  09/13/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling led.c...
+led.c(27): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+led.c(28): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+led.c(28): error:  #20: identifier "RCC_APB2Periph_GPIOC" is undefined
+led.c(30): error:  #20: identifier "GPIO_Pin_3" is undefined
+led.c(30): error:  #20: identifier "GPIO_Pin_4" is undefined
+led.c(30): error:  #20: identifier "GPIO_Pin_5" is undefined
+led.c(31): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+led.c(32): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+led.c(33): warning:  #223-D: function "GPIO_Init" declared implicitly
+led.c(35): warning:  #223-D: function "GPIO_SetBits" declared implicitly
+compiling main.c...
+main.c(24): error:  #20: identifier "TIM_TimeBaseInitTypeDef" is undefined
+main.c(25): error:  #20: identifier "TIM_OCInitTypeDef" is undefined
+main.c(66): error:  #20: identifier "TIM_CounterMode_Up" is undefined
+main.c(68): warning:  #223-D: function "TIM_TimeBaseInit" declared implicitly
+main.c(71): error:  #20: identifier "TIM_OCMode_PWM1" is undefined
+main.c(72): error:  #20: identifier "TIM_OutputState_Enable" is undefined
+main.c(74): error:  #20: identifier "TIM_OCPolarity_High" is undefined
+main.c(76): warning:  #223-D: function "TIM_OC1Init" declared implicitly
+main.c(78): warning:  #223-D: function "TIM_OC1PreloadConfig" declared implicitly
+main.c(78): error:  #20: identifier "TIM_OCPreload_Enable" is undefined
+main.c(84): warning:  #223-D: function "TIM_OC2Init" declared implicitly
+main.c(86): warning:  #223-D: function "TIM_OC2PreloadConfig" declared implicitly
+main.c(92): warning:  #223-D: function "TIM_OC3Init" declared implicitly
+main.c(94): warning:  #223-D: function "TIM_OC3PreloadConfig" declared implicitly
+main.c(100): warning:  #223-D: function "TIM_OC4Init" declared implicitly
+main.c(102): warning:  #223-D: function "TIM_OC4PreloadConfig" declared implicitly
+main.c(104): warning:  #223-D: function "TIM_ARRPreloadConfig" declared implicitly
+main.c(107): warning:  #223-D: function "TIM_Cmd" declared implicitly
+main.c(121): warning:  #223-D: function "RCC_DeInit" declared implicitly
+main.c(124): warning:  #223-D: function "RCC_HSEConfig" declared implicitly
+main.c(124): error:  #20: identifier "RCC_HSE_ON" is undefined
+main.c(127): warning:  #223-D: function "RCC_WaitForHSEStartUp" declared implicitly
+main.c(127): warning:  #188-D: enumerated type mixed with another type
+main.c(132): warning:  #223-D: function "FLASH_PrefetchBufferCmd" declared implicitly
+main.c(132): error:  #20: identifier "FLASH_PrefetchBuffer_Enable" is undefined
+main.c(135): warning:  #223-D: function "FLASH_SetLatency" declared implicitly
+main.c(135): error:  #20: identifier "FLASH_Latency_2" is undefined
+main.c(138): warning:  #223-D: function "RCC_HCLKConfig" declared implicitly
+main.c(138): error:  #20: identifier "RCC_SYSCLK_Div1" is undefined
+main.c(141): warning:  #223-D: function "RCC_PCLK2Config" declared implicitly
+main.c(141): error:  #20: identifier "RCC_HCLK_Div1" is undefined
+main.c(144): warning:  #223-D: function "RCC_PCLK1Config" declared implicitly
+main.c(144): error:  #20: identifier "RCC_HCLK_Div4" is undefined
+main.c(147): warning:  #223-D: function "RCC_PLLConfig" declared implicitly
+main.c(147): error:  #20: identifier "RCC_PLLSource_HSE_Div1" is undefined
+main.c(147): error:  #20: identifier "RCC_PLLMul_9" is undefined
+main.c(150): warning:  #223-D: function "RCC_PLLCmd" declared implicitly
+main.c(153): warning:  #223-D: function "RCC_GetFlagStatus" declared implicitly
+main.c(153): error:  #20: identifier "RCC_FLAG_PLLRDY" is undefined
+main.c(157): warning:  #223-D: function "RCC_SYSCLKConfig" declared implicitly
+main.c(157): error:  #20: identifier "RCC_SYSCLKSource_PLLCLK" is undefined
+main.c(160): warning:  #223-D: function "RCC_GetSYSCLKSource" declared implicitly
+main.c(165): warning:  #223-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+main.c(165): error:  #20: identifier "RCC_APB1Periph_TIM3" is undefined
+main.c(168): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+main.c(168): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+main.c(168): error:  #20: identifier "RCC_APB2Periph_GPIOB" is undefined
+main.c(178): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+main.c(181): error:  #20: identifier "GPIO_Pin_6" is undefined
+main.c(181): error:  #20: identifier "GPIO_Pin_7" is undefined
+main.c(182): error:  #20: identifier "GPIO_Mode_AF_PP" is undefined
+main.c(183): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+main.c(185): warning:  #223-D: function "GPIO_Init" declared implicitly
+main.c(188): error:  #20: identifier "GPIO_Pin_0" is undefined
+main.c(188): error:  #20: identifier "GPIO_Pin_1" is undefined
+compiling pwm_output.c...
+compiling stm32f10x_it.c...
+compiling misc.c...
+..\FWlib\src\misc.c(22): error:  #5: cannot open source input file "misc.h": No such file or directory
+compiling stm32f10x_tim.c...
+..\FWlib\src\stm32f10x_tim.c(142): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(142): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(143): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(144): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(144): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(145): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(146): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(146): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(147): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(148): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(148): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(149): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(193): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(193): error:  #29: expected an expression
+..\FWlib\src\stm32f10x_tim.c(193): error:  #31: expression must have integral type
+..\FWlib\src\stm32f10x_tim.c(257): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(257): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_tim.c(257): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_tim.c(258): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(258): error:  #65: expected a ";"
+..\FWlib\src\stm32f10x_tim.c(267): error:  #29: expected an expression
+..\FWlib\src\stm32f10x_tim.c(267): error:  #31: expression must have integral type
+..\FWlib\src\stm32f10x_tim.c(267): error:  #29: expected an expression
+..\FWlib\src\stm32f10x_tim.c(267): error:  #31: expression must have integral type
+..\FWlib\src\stm32f10x_tim.c(289): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(297): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_tim.c(297): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_tim.c(308): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_tim.c(314): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_tim.c(324): error:  #20: identifier "uint32_t" is undefined
+compiling stm32f10x_gpio.c...
+..\FWlib\src\stm32f10x_gpio.c(105): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(105): error:  #29: expected an expression
+..\FWlib\src\stm32f10x_gpio.c(105): error:  #31: expression must have integral type
+..\FWlib\src\stm32f10x_gpio.c(165): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(166): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(173): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(173): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(173): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(174): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(174): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(179): error:  #65: expected a ";"
+..\FWlib\src\stm32f10x_gpio.c(183): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(188): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(195): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(202): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(209): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(223): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(230): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(237): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(242): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(271): error:  #20: identifier "uint8_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(271): error:  #20: identifier "uint16_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(273): error:  #20: identifier "uint8_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(279): error:  #20: identifier "uint32_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(279): error:  #18: expected a ")"
+..\FWlib\src\stm32f10x_gpio.c(281): error:  #20: identifier "uint8_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(281): error:  #65: expected a ";"
+..\FWlib\src\stm32f10x_gpio.c(285): error:  #20: identifier "uint8_t" is undefined
+..\FWlib\src\stm32f10x_gpio.c(285): error:  #65: expected a ";"
+..\FWlib\src\stm32f10x_gpio.c(287): warning:  #1166-D: returning pointer to local variable
+..\FWlib\src\stm32f10x_gpio.c(295): error:  #20: identifier "uint16_t" is undefined
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+Target not created
